@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: rgb(235, 235, 235);
+}
+.header {
+  position: fixed;
+  /* border-radius: 6px; */
+  border: 0.2px solid rgb(74, 74, 74);
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px 0 0;
+  margin: 0 5px 0 0;
+}
+#logo {
+  width: 110px;
+  margin: 2px 10px;
+}
+
+#logo img {
+  height: 100%;
+  width: 100%;
+}
+
+#logo img:hover {
+  transform: scale(1.1);
+}
+.navbar a {
+  padding: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: 250;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+#submenu {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.navbar a:hover {
+  color: rgb(165 255 252);
+  transition: 1s;
+}
+
+body {
+  width: 100%;
+  height: 110vh;
+  display: grid;
+}
+.imgslider {
+  margin-left: 8rem;
+  margin-top: 60px;
+  width: 80%;
+  height: 555px;
+  background-image: url("image/logo.png");
+  background-size: 100% 100%;
+  box-shadow: rgba(20, 0, 99, 0.2);
+  animation: changeImage 25s forwards infinite;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+/* .imgslider:hover {
+  transform: scale(1.01);
+} */
+@keyframes changeImage {
+  0% {
+    background-image: url("image/9.jpg");
+  }
+  20% {
+    background-image: url("image/7.jpg");
+  }
+  40% {
+    background-image: url("image/2.jpg");
+  }
+  60% {
+    background-image: url("image/13.jpg");
+  }
+  80% {
+    background-image: url("image/14.jpg");
+  }
+  100% {
+    background-image: url("image/12.png");
+  }
+}
+.home {
+  display: flex;
+  /* height: vh; */
+  align-items: center;
+  /* padding: 0 10%; */
+  margin-left: 8rem;
+}
+.home-content {
+  margin-top: 30px;
+  max-width: 800px;
+}
+.home-content h1 {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: oblique;
+  font-weight: 700;
+}
+.home-content h3 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #0064ff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: oblique;
+}
+.home-content p {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.page2 h3 {
+  margin-left: 2.1rem;
+  font-size: 20px;
+  font-weight: 700;
+  /* color: #ffffff; */
+  color: #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-style: oblique; */
+}
+
+.page2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.7rem 5rem 2rem 5rem;
+  flex-wrap: wrap;
+}
+.box {
+  border: 2px solid rgb(255, 255, 255);
+  margin: 10px;
+  height: 250px;
+  width: 300px;
+}
+.box {
+  /* background-color: rgb(117, 117, 117); */
+  /* background-color: rgb(225 194 223 / 56%); */
+  background-color: #edf2f7;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  height: 250px;
+}
+.box img {
+  margin-top: 10px;
+  margin-left: 14%;
+  height: 80%;
+  width: 70%;
+  border-radius: 2px;
+}
+/* .box1 p {
+  margin-left: 40%;
+} */
+
+.box img:hover {
+  /* transform: scale(1.09) rotate(2deg); */
+  transform: scale(1.05);
+  border-radius: 5px;
+}
+.dtu {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+}
+
+.ques {
+  margin-left: 3%;
+  /* border: 1px solid white; */
+  /* max-width: 1000px; */
+  border: 1px solid grey;
+  margin-right: 3%;
+  /* background-color: rgb(231, 231, 231); */
+  background-color: #edf2f7;
+  margin-bottom: 2.1rem;
+}
+
+.ques-ans {
+  padding: 8px;
+  margin-top: 10px;
+  max-width: 70%;
+  margin-bottom: 2rem;
+}
+.ques-ans h1 {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: oblique;
+  font-weight: 700;
+}
+.ques-ans h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: oblique;
+}
+.ques-ans p {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.row {
+  display: flex;
+  margin-left: 50px;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.footer-col ul {
+  list-style: none;
+}
+.footer {
+  /* background-color: rgb(18, 18, 18); */
+  background-color: #181e23;
+  padding: 25px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+  /* font-style: oblique; */
+  font-weight: bold;
+  text-transform: capitalize;
+  position: relative;
+  margin-bottom: 20px;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  background-color: rgb(215, 36, 13);
+  height: 2px;
+  box-sizing: border-box;
+  width: 55px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 15px;
+  text-transform: capitalize;
+  /* color: #ffffff; */
+  text-decoration: none;
+  font-weight: 300;
+  color: #c7c7c7;
+  display: block;
+  transition: all 0.3s ease;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-col ul li a:hover {
+  color: rgb(93, 93, 255);
+  padding-left: 7px;
+  /* transform: scale(1.05); */
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: white;
+}
+/* responsive */
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
