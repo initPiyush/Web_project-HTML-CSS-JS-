@@ -57,7 +57,7 @@ body {
   margin-top: 60px;
   width: 80%;
   height: 555px;
-  background-image: url("image/logo.png");
+  background-image: url("logo.png");
   background-size: 100% 100%;
   box-shadow: rgba(20, 0, 99, 0.2);
   animation: changeImage 25s forwards infinite;
@@ -69,22 +69,22 @@ body {
 } */
 @keyframes changeImage {
   0% {
-    background-image: url("image/dtu1.jpg");
+    background-image: url("dtu1.jpg");
   }
   20% {
-    background-image: url("image/dtu3.jpeg");
+    background-image: url("dtu3.jpeg");
   }
   40% {
-    background-image: url("image/dtu4.jpg");
+    background-image: url("dtu4.jpg");
   }
   60% {
-    background-image: url("image/5.jpeg");
+    background-image: url("5.jpeg");
   }
   80% {
-    background-image: url("image/dtu1.jpg");
+    background-image: url("dtu1.jpg");
   }
   100% {
-    background-image: url("image/dtu4.jpg");
+    background-image: url("dtu4.jpg");
   }
 }
 /* .home {
