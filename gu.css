@@ -57,7 +57,7 @@ body {
   margin-top: 60px;
   width: 80%;
   height: 555px;
-  background-image: url("image/logo.png");
+  background-image: url("logo.png");
   background-size: 100% 100%;
   box-shadow: rgba(20, 0, 99, 0.2);
   animation: changeImage 25s forwards infinite;
@@ -69,22 +69,22 @@ body {
 } */
 @keyframes changeImage {
   0% {
-    background-image: url("image/gu1.jpeg");
+    background-image: url("gu1.jpeg");
   }
   20% {
-    background-image: url("image/gu2.jpg");
+    background-image: url("gu2.jpg");
   }
   40% {
-    background-image: url("image/gu3.jpg");
+    background-image: url("gu3.jpg");
   }
   60% {
-    background-image: url("image/gu1.jpeg");
+    background-image: url("gu1.jpeg");
   }
   80% {
-    background-image: url("image/gu2.jpg");
+    background-image: url("gu2.jpg");
   }
   100% {
-    background-image: url("image/gu3.jpg");
+    background-image: url("gu3.jpg");
   }
 }
 /* .home {
