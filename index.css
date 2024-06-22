@@ -62,7 +62,7 @@ body {
   margin-top: 60px;
   width: 80%;
   height: 555px;
-  background-image: url("image/logo.png");
+  background-image: url("logo.png");
   background-size: 100% 100%;
   box-shadow: rgba(20, 0, 99, 0.2);
   animation: changeImage 25s forwards infinite;
@@ -74,22 +74,22 @@ body {
 } */
 @keyframes changeImage {
   0% {
-    background-image: url("image/9.jpg");
+    background-image: url("9.jpg");
   }
   20% {
-    background-image: url("image/7.jpg");
+    background-image: url("7.jpg");
   }
   40% {
-    background-image: url("image/2.jpg");
+    background-image: url("2.jpg");
   }
   60% {
-    background-image: url("image/13.jpg");
+    background-image: url("13.jpg");
   }
   80% {
-    background-image: url("image/14.jpg");
+    background-image: url("14.jpg");
   }
   100% {
-    background-image: url("image/12.png");
+    background-image: url("12.png");
   }
 }
 .home {
